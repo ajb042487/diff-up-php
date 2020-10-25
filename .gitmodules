@@ -1,0 +1,6 @@
+[submodule "third-party/php-xz"]
+	path = third-party/php-xz
+	url = https://github.com/ajb042487/php-xz.git
+[submodule "third-party/php-bsdiff"]
+	path = third-party/php-bsdiff
+	url = https://github.com/ajb042487/php-bsdiff.git
