@@ -1,4 +1,4 @@
-# diff-up-php
+# php-diff-up
 Server backend for generating and managing differential based backups using bsdiff.
 
 ## Guidance
@@ -22,5 +22,10 @@ The diff-up server requires a couple PHP modules to enable the necessary functio
 * [php-xz](https://github.com/ajb042487/php-xz)
 ### Steps
 * Install Apache and PHP if you have not already, or similar combination
-* Download the two repos above, follow the README.md to install and enable the modules
+* Clone and initialize this repo:
+   * git clone https://github.com/ajb042487/php-diff-up
+   * git submodule update --init --recursive
+* This will download the two repos above
+* Run the top-level Makefile to build and install the modules
+* Follow the respective README.md of each repo listed above to enable the extensions
 * Check phpinfo() to verify the module bsdiff and xz are both enabled
